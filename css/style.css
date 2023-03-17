@@ -1,0 +1,67 @@
+@import url("header.css");
+@import url("main.css");
+@import url("../fonts/stylesheet.css");
+
+:root {
+  --gray: #33333333;
+  --light-gray: #F5F5F5;
+  --firm: #9873FF;
+  --txt_grey: #B0B0B0;
+  
+}
+
+
+* {
+  box-sizing: border-box;
+  border: none;
+  outline: 1px pink solid;
+}
+
+body {
+  background-color: var(--light-gray);
+  font-family: 'OpenSans-Regular', sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1186px;
+  margin-left: 90px;
+  margin-right: 90px;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+

@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  max-height: 90px;
+  height: 100%;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: #fff;
+  box-shadow: 0px 9.03012px 27.0904px rgba(176, 190, 197, 0.32), 0px 3.38629px 5.64383px rgba(176, 190, 197, 0.32);
+}
+
+.header__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 53px;
+}
+
+.header__search {
+  border: 1px solid var(--gray);
+  height: 44px;
+  width: 100%;
+  max-width: 581px;
+  padding-left: 16px;
+}
