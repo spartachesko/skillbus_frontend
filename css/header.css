@@ -16,7 +16,7 @@
 }
 
 .header__search {
-  border: 1px solid var(--gray);
+  border: 1px solid var(--grey);
   height: 44px;
   width: 100%;
   max-width: 581px;

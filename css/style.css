@@ -1,13 +1,19 @@
 @import url("header.css");
 @import url("main.css");
-@import url("../fonts/stylesheet.css");
+@import url("media.css");
+@import url("modal.css");
+@import url("/fonts/stylesheet.css");
 
 :root {
-  --gray: #33333333;
+  /* --gray: #33333333; */
+  --grey: #C8C5D1;
   --light-gray: #F5F5F5;
   --firm: #9873FF;
   --txt_grey: #B0B0B0;
-  
+  --black:#333333;
+  --red: #F06A4D;
+  --orange:#E6B127;
+  --green: #34C759;
 }
 
 
@@ -62,6 +68,11 @@ img {
 }
 
 
-
+button {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+}
 
 
