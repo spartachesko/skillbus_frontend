@@ -2,6 +2,7 @@
 @import url("main.css");
 @import url("media.css");
 @import url("modal.css");
+@import url("choices.css");
 @import url("/fonts/stylesheet.css");
 
 :root {
@@ -75,4 +76,8 @@ button {
   background-color: #fff;
 }
 
+
+.fz-hack{
+  font-size: 0;
+}
 

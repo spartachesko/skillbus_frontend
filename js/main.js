@@ -44,13 +44,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   function formatDate(date) {
     var dd = new Date(date).getDate();
     if (dd < 10) dd = '0' + dd;
-  
+
     var mm = new Date(date).getMonth() + 1;
     if (mm < 10) mm = '0' + mm;
-  
+
     var yy = new Date(date).getFullYear();
     if (yy < 10) yy = '0' + yy;
-  
+
     return dd + '.' + mm + '.' + yy;
   }
 
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     btnRemove.setAttribute('id', clientObj.id);
     btnRemove.addEventListener('click', () => {
       removeClient(clientObj.id);
-      
+
     })
 
     optionsClient.append(btnUpdate);
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     dateCreated.textContent = formatDate(createdSeconds);
     dateUpdates.textContent = formatDate(updatedSeconds);
-    contactsClient.textContent = clientObj.contacts ;
+    contactsClient.textContent = clientObj.contacts;
 
     idClient.textContent = clientObj.id;
 
@@ -122,6 +122,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
 
+  function renderRowContact() {
+    
+
+  };
+
+
   renderTable(await getClients());
 
 
@@ -135,6 +141,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   })
 
+  let btnAddContact = document.querySelector(".modal-add__contacts__btn")
+  btnAddContact.addEventListener('click', async function (e) {
+    e.preventDefault();
+
+    console.log('add CONTACT');
+
+    renderRowContact();
+
+
+
+  })
 
 
 })
